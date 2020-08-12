@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+
+html, body{
+    margin: 0;
+}
+#imagem-fundo {
+    background: url("Materiais/pexels-flickr-157039.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+header{
+    background-color: black;
+    color:white ;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+#logo{
+    width: 200px;
+    position: absolute;
+    top: -2px;
+    margin-left: 5%;
+    
+}
+
+li{
+    float: left;
+    padding: 6 10 6 10;
+    text-align: center;
+}
+li:hover{
+    background-color: #69ad2b;
+}
+
+#menu{
+    float: right;
+    list-style: none;
+    text-align: center;
+}
+
+#titulo{
+    color: white;
+    padding-top: 25%;
+}
+
+#subtitulo{
+    color: white;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+#comecar{
+    color: white;
+    border: 1px white solid;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.icones{
+    width: 51px;
+}
+
+#oquee{
+    background: #f5f5f5;
+    padding:20px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+#tiposdeenergia{
+    padding: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+header .menu{
+    font-family: 'Baloo Tamma 2', cursive;
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 5%;
+    color: white;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.cinco{
+    width: 10%;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+.justificado{
+    text-align: justify;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.centralizado{
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.direita{
+    text-align: right;
+}
+
+.esquerda{
+    text-align: left;
+}
+
+footer{
+    background-color: #69ad2b;
+    float: left;
+    font-family: 'Baloo Tamma 2', cursive;
+    text-align: center;
+}
+
+@media all and (max-width: 768px){
+     #menu{
+         visibility: hidden;
+    }
+    .coluna, .cinco{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #logocenter{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    }
+
+    #logo{
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+}
+
